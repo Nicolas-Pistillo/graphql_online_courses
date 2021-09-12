@@ -1,0 +1,20 @@
+{
+  "name": "graph_api_courses",
+  "version": "1.0.0",
+  "description": "api graphql academia online",
+  "main": "build/server.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Pistillo/graphql_online_courses.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Pistillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Pistillo/graphql_online_courses/issues"
+  },
+  "homepage": "https://github.com/Nicolas-Pistillo/graphql_online_courses#readme"
+}
