@@ -4,7 +4,10 @@
   "description": "api graphql academia online",
   "main": "build/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node build/server.js",
+    "build": "tsc -p . && ncp src/schema build/schema",
+    "start:dev": "npm run build:dev",
+    "build:dev": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,json,graphql"
   },
   "repository": {
     "type": "git",
@@ -37,6 +40,7 @@
     "@types/express": "^4.17.13",
     "@types/graphql": "^14.5.0",
     "@types/lodash": "^4.14.173",
-    "@types/node": "^16.9.6"
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.12"
   }
 }
